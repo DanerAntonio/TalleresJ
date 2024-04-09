@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TeoSoft - Tienda de Mascotas</title>
+<link rel="stylesheet" href="teosoffinal.css">
+<link rel="stylesheet" href="./tiosoft.js">
+<link rel="shortcut icon" href="Saved Pictures/logo tienda.jpg" type="image/x-icon">
+</head>
+<body>
+<header>
+    <img src="Saved Pictures/logo tienda.jpg" alt="">
+    <h1>TeoSoft - Tienda de Mascotas</h1>
+    
+    
+</header>
+
+<div class="video">
+    <video autoplay muted loop src="Saved Pictures/Vídeo promocional para tienda de mascotas.mp4"></video>
+   
+</div>
+
+
+<div class="botones">
+    <ul>
+        <li><a class="btn" href="teosoffinal.html">Inicio</a>
+            <ul class="submenu">
+                <li><a href="#">Productos para perros</a></li>
+                <li><a href="#">Productos para gatos</a></li>
+                <li><a href="#">Juguetes</a></li>
+                <li><a href="#">Alimentos</a></li>
+                <li><a href="#">Medicamentos</a></li>
+            </ul>
+        </li>
+        <li><a class="btn" href="Sobre-Nosotros.html">Sobre Nosotros</a>
+            <ul class="submenu">
+                <li><a href="#">Fundador</a></li>
+                <li><a href="#">Ubicación y cómo llegar</a></li>
+                <li><a href="#">Historia</a></li>
+            </ul>
+        </li>
+        <li><a class="btn" href="Registrate.html">Regístrate</a>
+            <ul class="submenu">
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Domicilios</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<div class="container">
+    <div class="product">
+        <img src="Saved Pictures/JUGUETES 1.jpg" alt="">
+        <h2>campana</h2>
+        <p>Precio: $10.000</p>
+        <button onclick="addToCart('Campana', 10000)">Agregar al Carrito</button>
+    </div>
+    <div class="product">
+        <img src="Saved Pictures/JUGUETES 2.jpg" alt="">
+        <h2>Goma</h2>
+        <p>Precio: $15.000</p>
+        <button onclick="addToCart('Goma', 15000)">Agregar al Carrito</button>
+    </div>
+    <div class="product">
+        <img src="Saved Pictures/JUGUETES 3.jpg" alt="">
+        <h2>collar</h2>
+        <p>Precio: $20.000</p>
+        <button onclick="addToCart('Collar', 20000)">Agregar al Carrito</button>
+    </div>
+    <div class="product">
+        <img src="Saved Pictures/PRODUCTOS 1.png" alt="">
+        <h2>Chunky</h2>
+        <p>Precio: $23.000</p>
+        <button onclick="addToCart('Chunky', 23.000)">Agregar al Carrito</button>
+    </div>
+    <div class="product">
+        <img src="Saved Pictures/JUGUETE4.jpg" alt="">
+        <h2>Alimento</h2>
+        <p>Precio: $20.000</p>
+        <button onclick="addToCart('Alimeto', 20000)">Agregar al Carrito</button>
+    </div>
+    
+    <div class="product">
+        <img src="Saved Pictures/PRODUCTO3.jpg" alt="">
+        <h2>Manoplas</h2>
+        <p>Precio: $20.000</p>
+        <button onclick="addToCart('Manopla', 20000)">Agregar al Carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="Saved Pictures/PRODUCTO4.jpg" alt="">
+        <h2>Humedos</h2>
+        <p>Precio: $20.000</p>
+        <button onclick="addToCart('Humedos', 20000)">Agregar al Carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="Saved Pictures/PRODUCTO5.jpg" alt="">
+        <h2>Cepillo</h2>
+        <p>Precio: $20.000</p>
+        <button onclick="addToCart('Cepillo', 20000)">Agregar al Carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="Saved Pictures/PRODUCTO6.jpg" alt="">
+        <h2>Correas</h2>
+        <p>Precio: $20.000</p>
+        <button onclick="addToCart('Correa', 20000)">Agregar al Carrito</button>
+    </div>
+    
+   
+</div>
+<div class="video">
+    <video autoplay muted loop src="Saved Pictures/video.mp4"></video>
+</div>
+
+<div id="cart">
+   
+    <div class="carrito"">
+        <img src="Saved Pictures/carrito.jpg" alt="">
+    </div>
+    <p>Total: <span id="cart-total">0</span></p>
+</div>
+
+
+<footer>
+    <h2>Síguenos en redes sociales:</h2>
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+    <a href="#">Instagram</a>
+    <br>
+    <p>Contáctanos por WhatsApp: 3112762618</p>
+</footer>
+</body>
+</html>

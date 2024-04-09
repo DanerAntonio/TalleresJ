@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tienda de Mascotas</title>
+    <link rel="stylesheet" href="tiosoft.css">
+    <script src="tiosoft.js"></script>
+    <script src="app.js"></script>
+    
+</head>
+<body>
+
+
+
+
+   
+    <header>
+        <h1>Tiosoft</h1>
+    </header>
+    <main>
+        <section id="productos">
+            <h2>Productos</h2>
+            <ul id="lista-productos">
+                <!-- Aquí se cargarán dinámicamente los productos -->
+            </ul>
+        </section>
+        <section id="carrito">
+            <h2>Carrito</h2>
+            <button onclick='saludar("daner mosquera")'>saludar  daner mosquera</button>
+            <script>
+                function saludar(nombre,apellido){
+                    console.log("hola"+ nombre + "" + apellido);
+                    alerta("hola"+ nombre + "" + apellido)
+                    saludar("daner","mosquera")
+                }
+            </script>
+            <ul id="lista-carrito">
+                <!-- Aquí se cargarán dinámicamente los productos agregados al carrito -->
+            </ul>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
