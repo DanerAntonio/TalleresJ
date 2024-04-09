@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background: greenyellow;
+}
+
+header {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #cdfadb;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background: blue;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+.cart {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f8f8f8;
+}
+
+.nav-list{
+    color: rgb(red, green, blue);
+    text-decoration: none;
+    display: block;
+    padding: 50px 50;
+    top: -20px;
+    float: left;
+    
+    
+}
+a:hover{
+    color: rgba(red, green, blue, alpha);
+    animation: 1s ms 1;
+   
+
+    
+    
+    
+}
+@keyframes ms {
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: -130px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+} 
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    display: inline-block;
+    background: #6c8d71;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin: 30px;
+    
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: auto;
+    right: -540px;
+}
+
+.titulo {
+    font-size: 250%;
+    color: blue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.footer {
+
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    top: -1000;
+    margin: 100px;
+    padding: 5px;
+    
+    
+    
+}
+
+.wha {
+    height: 30px;
+    
+ 
+ }

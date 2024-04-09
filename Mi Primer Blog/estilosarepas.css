@@ -1,0 +1,346 @@
+
+body {
+     
+      
+    margin: 20px;
+    background-color: #ecf0f1;
+    
+}
+
+
+
+
+.header {
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+    background-color: #cdfadb;
+    
+ 
+}
+    
+    
+.contenedornav{
+    position: relative;
+    top: auto;
+   
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: auto;
+    right: -600px;
+}
+
+.arepa3 {
+    width: 50%;
+    height: 1;
+    right: 80px;
+    top: 20px; 
+    border-radius: 20px;
+  
+}
+
+.arepa2 {
+  
+    width: 50%;
+    height: 1;
+    right: 80px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.contenedorarepas{
+  
+   display: flex;
+   gap: 20px;
+   border-radius: 10px;
+}
+
+.contenedorvideoimagen{
+  
+   display: flex;
+   gap: 20px;
+   margin-top: 10px;
+ }
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: -130px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+} 
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    
+    display: inline-block;
+    background: chocolate;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 40px;
+    
+    
+}
+
+.platos {
+    
+    font-size: 300%;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 4px;
+}
+.platos:hover{
+    transform: scale(2.2);
+}
+
+.border{
+    border-radius: 50%;
+}
+
+.form{
+    text-align: center;
+}
+.wha {
+    height: 30px;
+    
+ 
+ }
+ .cerca-de-morcilla {
+    border-radius: 10;
+}
+
+.nav-list{
+    color: rgb(red, green, blue);
+    text-decoration: none;
+    display: block;
+    padding: 50px 50;
+    top: -20px;
+    float: left;
+    
+    
+}
+a:hover{
+    color: rgba(red, green, blue, alpha);
+    animation: 1s ms 1;
+   
+
+    
+    
+    
+}
+@keyframes ms {
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
+
+/*.video {
+    position: relative;
+    top: 280px;
+}*/
+
+
+.nav-links {
+    position: relative;
+    width: 50px;
+    height: auto;
+    right: 1px;
+    color: #cdfadb;
+
+}
+
+.contenedorfooter {
+    border: 1px solid black;
+}
+
+.parrafo {
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: white;
+    font-size: 150%;
+    top: 5px;
+    position: relative; 
+    width: 100%;
+    color: black
+
+
+}
+
+.parrafo2 {
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: white;
+    text-align: center;
+    font-size: 150%;
+    top: 10px;
+    position: relative; 
+    width: 100%;
+    color: black
+    
+
+
+}
+
+.parrafo1 {
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: white;
+    font-size: 150%;
+    top: 1px;
+    position: relative; 
+    width: 40%;
+    color: black
+
+
+}
+.img{
+    
+    display: inline;
+    position: relative;
+    
+}
+
+.img1{
+    position: relative;
+    top: -10px;
+  
+    width: 30%;
+    display: inline;
+    position: relative;
+    left: 20%;
+    right:40px 
+    
+    
+}
+
+.platos {
+    font-size: 200%;
+    
+    padding: 10px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.vide{
+    width: 40%;
+    top: -20px;
+    height: 20;
+}
+
+.footer {
+
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    top: -10px;
+    
+    
+    
+}
+
+.form{
+    text-align: center;
+}
+
+
+
+
+.header {
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #cdfadb
+    
+    
+    
+}
+
+
+
+.wha {
+   height: 30px;
+   
+
+}
+.video {
+   display: flex;
+   top: -200px;
+   left: 50%;
+   right: 50px;
+   gap: 20px;
+   
+
+    
+ 
+ }
+
+ .nav-list{
+    color: rgb(red, green, blue);
+    text-decoration: none;
+    display: block;
+    padding: 50px 50;
+    top: -20px;
+    float: left;
+    
+    
+}
+a:hover{
+    color: rgba(red, green, blue, alpha);
+    animation: 1s ms 1;
+   
+
+    
+    
+    
+}
+@keyframes ms {
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: -130px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+} 
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    display: inline-block;
+    background: #6c8d71;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin: 30px;
+    
+}

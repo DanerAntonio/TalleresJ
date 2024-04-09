@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tamales Claudia</title>
+<link rel="stylesheet" href="pideyaestilos.css">
+</head>
+<link rel="icon" href="dios.gif">
+<body>
+    <header class="header">
+        <a href="./tamales.html"><img class="logo" src="Imagenes de M i Blog/logo de cocina.jpg" alt=""></a>
+        <nav class="nav">
+            <ul class="nav-lis">
+                <li class="nav-list"><a class="nav-link" href="principalhtml.html">Inicio</a></li>
+                <li class="nav-list"><a class="nav-link" href="morcillashtml.html">Morcillas</a></li>
+                <li class="nav-list"><a class="nav-link" href="arepas.html">Arepas</a></li>
+                <li class="nav-list"><a class="nav-link" href="tamaleshtml.html">Tamales</a></li>               
+                <li class="nav-list"><a class="nav-link" href="formulariohtml.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+<div>
+<h1 class="titulo">Elige tu plato favorito</h1>
+</div>
+
+<div class="menu">
+
+<div class="product">
+<img src="Imagenes de M i Blog/arepas de chocolo.jpg" alt="Arepas">
+<p>Arepas - $6.000</p>
+<button onclick="addToCart('Arepas')">Añadir al carrito</button>
+<button onclick="orderDelivery('Arepas')">Pedir a domicilio</button>
+</div>
+<div class="product">
+<img src="Imagenes de M i Blog/plato de morcilla.jpg" alt="morcillas">
+<p>Morcilla - $10.000</p>
+<button onclick="addToCart('morcilla')">Añadir al carrito</button>
+<button onclick="orderDelivery('morcilla')">Pedir a domicilio</button>
+</div>
+</div>
+<div class="menu">
+    
+    <div class="product">
+    <img src="Imagenes de M i Blog/plato de tamal.jpg" alt="Tamales">
+    <p>Arepas - $13.000</p>
+    <button onclick="addToCart('Tamales')">Añadir al carrito</button>
+    <button onclick="orderDelivery('Tamales')">Pedir a domicilio</button>
+    </div>
+
+<div class="cart">
+
+<ul id="cartItems">
+</ul>
+</div>
+
+
+
+
+</body>
+</html>
